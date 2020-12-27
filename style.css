@@ -1,0 +1,98 @@
+:root{
+  --white: #001E1E ;
+}
+*{
+  user-select: none;
+}
+*::selection{
+  color:#2F3036;
+  background-color: var(--white);
+}
+#nav{
+  transition: height 2s ease-in-out;
+}
+.nav{
+  color:var(--white);
+  overflow: hidden;
+  height:3%;
+  border-radius: 0 0 10% 10%;
+}
+#color{
+  width:100px;
+}
+#dropdown .inp{
+  width:80px;
+}
+#time{
+  text-indent:19px;
+}
+li button{
+  border:0px;
+  background:inherit;
+  float: right;
+}
+li:select{
+  background-color:#f0f0f0;
+  color:#0f0f0f;
+}
+button,input{
+  color:var(--white);
+  user-select: inherit !important;
+  background-color:inherit;
+  border:none;
+}
+#time{
+  color:var(--white);
+  position:relative;
+}
+span[id="add"]{
+  color:green;
+}
+.inp{
+  color: #000 ;
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  background-color:#EEE;
+  overflow:scroll;
+}
+.nav *{
+  margin:10px;
+}
+li button span{
+  color:red;
+}
+li{
+  overflow:scroll;
+}
+#b{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+summary{
+  text-indent: 10px;
+}
+
+button:focus{
+  user-select: none;
+}
+#icon{
+  color: white;
+  font-size: 190%;
+  position: relative;
+  bottom:50%;
+  margin-left: 100px;
+}
+.bor{
+  border-left: 2px solid rgba(99, 99, 222, 0.5);
+  padding-left: 1px;
+}
+.btn{
+  box-shadow: 0px 0px 8px rgb(1, 000, 000);
+}
+.up{
+  color: white;
+  font-size: 200%;
+}

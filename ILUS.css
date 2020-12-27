@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*body default*/
+
+body {
+    padding:0;
+    margin:0;
+    background-color:#e6e6e6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*pack(aka container)*/
+.pack{
+   padding:1rem; 
+   
+}
+
+/*btn(aka button)*/
+
+.btn{
+    color:white;
+    margin:0.4rem 0;
+    background-color:black;
+    padding:0.7rem 1rem;
+    border-radius:7px;
+    border:none;
+    cursor:pointer;   
+}
+
+/*img(for images)*/
+.img{
+    width:100%;
+    border-radius:7px;
+    margin:auto;
+}
+/*list(for ul/ol)*/
+
+.list{
+    background-color:rgba(255,255,255,0.99);
+    padding:0.0rem  ;
+    list-style:none;
+    border-radius:7px;    
+}
+.list li{
+    padding:0.7rem;
+    border-bottom:1.2px solid #ccc;
+}
+.list li:last-child{
+    border-bottom: none;
+}
+
+/*card */
+.card{
+    box-shadow:0px 0px 9px rgb(1, 000, 000);
+    background-color:white;
+    padding:0.9rem;
+    margin:1rem;
+    border-radius:7px;
+}
+
+/* inp (input) */
+
+.inp{
+    outline:none;
+    width:95%;
+    padding:0.4rem;
+    margin:0.71rem 0;
+    font-size:1rem;
+    border-radius:7px;
+    border:0px 1px 0px 0px;
+    border-color: rgba(10, 10, 10, 0.7);
+    box-shadow:0px 0px 9px #111;
+    
+}
+.check[type="checkbox"],.check[type='radio']{
+    width:1.52rem;
+    height:1.52rem;
+}
+/*nav*/
+.nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:1.5rem;
+    background-color:black;
+    box-shadow:2px 1px 5px black;
+}
+.wrap{
+    padding-top:4.5rem;
+}
+
+
+
+
+/*colors*/
+.lime{
+    background-color:rgb(50, 190, 70);
+}
+.blue{
+    background-color:#0081de;
+}
+.red{
+    background-color:#f03d30;
+}
+.gold{
+    background-color:rgb(255, 205, 74);
+}
+.purple{
+    background-color:#7c30ff;
+}
+.pink{
+    background-color:#f542da;
+}
+.dark{
+    background-color:rgb(20,20,20);
+    color:white;
+}
+.cyan{
+    background-color:rgb(90,200,250);
+}
+.light{
+    background-color:#cccccc;
+    color:black;
+}
+.bright{
+    background-color:white;
+    color:black;
+}
+
+/*positioning classes*/
+.right{
+margin-left:72%;
+}
+.left{
+    margin-right:72%;
+}
+.center {
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+}
+/*text classes*/
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+.text-bright{
+    color:white;
+}
+.text-dark{
+    color:black;
+}
+.text-auto{
+    color:rgba(0,0,0,0.5);
+}
+
+
+    
+/*utility*/
+hr{
+    height:3px;
+    background-color:#ccc;
+    border:none;
+    margin:none;
+    border-radius:4px;
+}
+.sharp{
+    border-radius:0px;
+}
